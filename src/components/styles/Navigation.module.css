@@ -1,0 +1,24 @@
+.menuNavigationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menuNavigationContent {
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLogo img {
+  width: 102px;
+  height: 24px;
+}
+
+.linksNavigation ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1.5em;
+}

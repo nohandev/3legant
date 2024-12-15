@@ -1,0 +1,27 @@
+.discountContainer {
+  background-color: #377dff;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  column-gap: 10px;
+}
+
+.shopNowMessage:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shopNowMessage svg {
+  font-size: 12px;
+}
+
+.closeDiscount {
+  position: absolute;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
