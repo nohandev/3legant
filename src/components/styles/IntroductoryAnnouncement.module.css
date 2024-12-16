@@ -1,0 +1,56 @@
+.announceContainer {
+  display: flex;
+  
+}
+
+.imgContainer {
+  display: flex;
+  flex: 1;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.messageContainer {
+  display: flex;
+  background-color: #171d28;
+  color: white;
+  align-items: center;
+  flex: 1;
+}
+
+.messageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 1em;
+  margin-left: 3em;
+  max-width: 350px;
+}
+
+.messageContent h1 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.messageContent p {
+  font-size: 1.1em;
+}
+
+.messageContent button {
+  border: none;
+  background-color: #377DFF;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  transition: ease-in-out 0.2s;
+}
+
+.messageContent button:hover {
+  background-color: #184baa;
+  cursor: pointer;
+}

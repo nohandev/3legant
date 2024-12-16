@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.navbarLogo {
+  display: flex;
+  align-items: center;
+}
+
 .navbarLogo img {
   width: 102px;
   height: 24px;
@@ -21,4 +26,39 @@
   list-style: none;
   display: flex;
   column-gap: 1.5em;
+  font-weight: 400;
+  padding:1em 0;
+  color: #6C7275;
+}
+
+.linksNavigation ul li:hover {
+  cursor: pointer;
+  color: #060606;
+}
+
+.userNavigation {
+  display: flex;
+  column-gap: 1.5em;
+  align-items: center;
+}
+
+.userNavigation svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.bagShoppingContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.bagShoppingContainer span {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: 9pt;
 }

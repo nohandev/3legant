@@ -25,11 +25,12 @@ const Navigation = () => {
         </ul>
       </div>
 
-      <div>
+      <div className={style.userNavigation}>
         <FontAwesomeIcon icon={faMagnifyingGlass}/>
         <FontAwesomeIcon icon={faUser}/>
-        <div>
-          <FontAwesomeIcon icon={faBagShopping}/><span>{itemInBag}</span>
+        <div className={style.bagShoppingContainer}>
+          <FontAwesomeIcon icon={faBagShopping}/>
+          <span>{itemInBag}</span>
         </div>
       </div>
       </div>

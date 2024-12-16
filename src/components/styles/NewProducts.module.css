@@ -1,0 +1,103 @@
+.productCarouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.productCarouselContent {
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+
+.productCarouselContent h2{
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.ListOfAddedProducts {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2em;
+}
+
+.cardProduct {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 10px;
+  position: relative;
+}
+
+
+
+.cardProduct img {
+  width: 100%;
+  height: auto;
+}
+
+.cardProduct p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.cardProduct span {
+  color: #121212;
+  font-weight: 600;
+}
+
+.warningBox {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background-color: white;
+  font-size: 1em;
+  padding: 3px 20px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+}
+
+.favoriteButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50%;
+  color: rgb(156, 156, 156);
+}
+
+.favoriteButton:hover {
+  cursor: pointer;
+  color: #ff5006;
+}
+
+.addToCartButtonShow {
+  display: block;
+  position: absolute;
+  bottom: 135px;
+  left: 16px;
+  width: 90%;
+  padding: 8px 0;  
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+
+.addToCartButtonHide {
+  display: none;
+}
+
+.addToCartButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
