@@ -1,0 +1,50 @@
+.gridContainer {
+  width: 100%;
+  margin-top: 3.5em;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.gridContent {
+  width: 100%;
+  max-width: 1366px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.bannerCard {
+ position: relative;
+}
+
+.bannerCard img {
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bannerMessage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+}
+
+.bannerMessage p {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.bannerMessage span {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.bannerMessage span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
