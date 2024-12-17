@@ -1,0 +1,42 @@
+.categoryContainer {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.categoryContent {
+  width: 100%;
+  max-width: 1366px;
+}
+
+.categoryContainer h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.categoriesList {
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  cursor: pointer;
+}
+
+.categoryCard img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.categoryCard p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
