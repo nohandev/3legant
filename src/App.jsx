@@ -10,6 +10,7 @@ import BestSeller from './components/BestSeller.jsx';
 import MarketingMessage from './components/MarketingMessage.jsx';
 import VideoSection from './components/VideoSection.jsx';
 import BlogSection from './components/BlogSection.jsx';
+import InstagramNewsFeed from './components/InstagramNewsFeed.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
      <MarketingMessage />
      <VideoSection />
      <BlogSection />
+     <InstagramNewsFeed />
     </>
   )
 }
