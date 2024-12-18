@@ -7,6 +7,7 @@ import NewProducts from './components/NewProducts.jsx';
 import FilterByCategory from './components/FilterByCategory.jsx';
 import BannerGrid from './components/BannerGrid.jsx';
 import BestSeller from './components/BestSeller.jsx';
+import MarketingMessage from './components/MarketingMessage.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
      <FilterByCategory />
      <BannerGrid />
      <BestSeller />
+     <MarketingMessage />
     </>
   )
 }
