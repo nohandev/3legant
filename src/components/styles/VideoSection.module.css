@@ -1,0 +1,44 @@
+.videoSectionContainer {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoSectionContent {
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  align-items: center;
+}
+
+.introductionMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1em;
+}
+
+.aboutTitle {
+  color: #377dff;
+  font-size: clamp(1em, 1.2em, 1.5em);
+}
+
+.title {
+  font-size: clamp(2em, 2.6em, 3em);
+  font-weight: 600;
+  color: #121212;
+}
+
+.message {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.videoContainer {
+  width: 100%;
+}
