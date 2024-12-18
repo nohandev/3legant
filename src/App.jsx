@@ -9,6 +9,7 @@ import BannerGrid from './components/BannerGrid.jsx';
 import BestSeller from './components/BestSeller.jsx';
 import MarketingMessage from './components/MarketingMessage.jsx';
 import VideoSection from './components/VideoSection.jsx';
+import BlogSection from './components/BlogSection.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
      <BestSeller />
      <MarketingMessage />
      <VideoSection />
+     <BlogSection />
     </>
   )
 }
