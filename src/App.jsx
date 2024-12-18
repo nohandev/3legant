@@ -11,6 +11,8 @@ import MarketingMessage from './components/MarketingMessage.jsx';
 import VideoSection from './components/VideoSection.jsx';
 import BlogSection from './components/BlogSection.jsx';
 import InstagramNewsFeed from './components/InstagramNewsFeed.jsx';
+import ValuesComponent from './components/ValuesComponent.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
      <VideoSection />
      <BlogSection />
      <InstagramNewsFeed />
+     <ValuesComponent />
+     <Footer />
     </>
   )
 }

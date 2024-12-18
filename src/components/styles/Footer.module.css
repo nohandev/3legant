@@ -1,0 +1,71 @@
+.footerContainer {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  background-color: #e8edee;
+  font-family: 'Inter', sans-serif;
+}
+
+.footerContent {
+  display: flex;
+  width: 100%;
+  max-width: 1366px;
+  padding: 4em 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5em;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: clamp(58px, 124px, 125px);
+}
+
+.title h1 {
+  color: #141718;
+  font-size: clamp(1em, 1.35em, 1,4em);
+  font-weight: 600;
+}
+
+
+.socialNetworks {
+  display: flex;
+  column-gap: 1.2em;
+}
+
+.socialNetworks svg {
+  width: 24px;
+  height: 24px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.description p {
+  font-size: 1.1em;
+  color: #141718;
+  font-weight: 200;
+}
+
+.description p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.descriptionEmail {
+  font-size: 1.1em;
+  color: #141718;
+  font-weight: 200;
+}
