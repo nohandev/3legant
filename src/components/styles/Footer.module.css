@@ -3,6 +3,8 @@
   margin-top: 5em;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #e8edee;
   font-family: 'Inter', sans-serif;
 }
@@ -12,6 +14,7 @@
   width: 100%;
   max-width: 1366px;
   padding: 4em 0;
+  border-bottom: 1px solid #6c7275d0;
 }
 
 .card {
@@ -68,4 +71,66 @@
   font-size: 1.1em;
   color: #141718;
   font-weight: 200;
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+}
+
+.inputContainer input {
+  border: 1px solid #6C7275;
+  background-color: #fcfcfd;
+  border-radius: 25px;
+  padding: 15px 10px;
+  width: 100%;
+  font-size: 1em;
+  outline: none
+}
+
+.submitEmail {
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  padding: 8px 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #377DFF;
+  color: white;
+  text-align: center;
+  transition: ease-in-out 0.2s;
+}
+
+.submitEmail:hover {
+  background-color: #1d63e6;
+  cursor: pointer;
+}
+
+.finalConsiderations {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1366px;
+  padding: 2em 0;
+}
+
+.privacyPolicyContainer {
+  display: flex;
+  column-gap: 1em;
+}
+
+.privacyPolicyContainer p {
+  font-size: 1.1em;
+  color: #141718;
+  font-weight: 200;
+}
+
+.privacyPolicyContainer p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cardsLogosContainer {
+  display: flex;
+  column-gap: 15px;
 }
